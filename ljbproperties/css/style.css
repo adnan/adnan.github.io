@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #0c2734;
+  background-color: #15215c;
 }
 a {
   transition: all 0.3s ease;
@@ -44,7 +44,7 @@ a:focus {
 
 .tm-btn-primary {
   color: white;
-  background-color: #007bff;
+  background-color: #1d4ed8;
   padding: 14px 35px;
   border-radius: 30px;
 }
@@ -52,7 +52,7 @@ a:focus {
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #0056b3;
+  background-color: #2563eb;
 }
 
 /* Navbar */
@@ -66,8 +66,8 @@ a:focus {
 }
 
 .tm-navbar.scroll {
-  background-color: #0c2734;
-  border-bottom: 1px solid #0c2734;
+  background-color: #15215c;
+  border-bottom: 1px solid #15215c;
 }
 
 .navbar-brand {
@@ -78,7 +78,7 @@ a:focus {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #007bff;
+  color: #1d4ed8;
 }
 
 .tm-navbar.scroll .navbar-brand {
@@ -100,7 +100,7 @@ a:focus {
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #007bff;
+  color: #1d4ed8;
 }
 
 .navbar-toggler {
@@ -129,33 +129,33 @@ a:focus {
   height: 100vh;
   min-height: 375px;
   position: relative;
-  background-color: #0c2734;
+  background-color: #15215c;
   background-image: url('../img/london2.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 }
 
 @media (min-height: 830px) {
   #hero {
-    background-position: center -210px;
+    background-position: center center;
   }
 }
 
 @media (min-height: 680px) and (max-height: 829px) {
   #hero {
-    background-position: center -300px;
+    background-position: center center;
   }
 }
 
 @media (min-height: 500px) and (max-height: 679px) {
   #hero {
-    background-position: center -400px;
+    background-position: center center;
   }
 }
 
 @media (max-height: 499px) {
   #hero {
-    background-position: center -450px;
+    background-position: center center;
   }
 }
 
@@ -201,7 +201,7 @@ a:focus {
 .tm-down-arrow {
   color: #ffffff;
   cursor: pointer;
-  background: #0c2734;
+  background: #15215c;
   border-radius: 50%;
   padding: 10px 22px 8px;
   transition: all 0.3s ease;
@@ -210,7 +210,7 @@ a:focus {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: white;
-  background: #007bff;
+  background: #2563eb;
 }
 
 /* Introduction */
@@ -230,7 +230,7 @@ a:focus {
 .tm-icon {
   display: block;
   margin-bottom: 55px;
-  color: #007bff;
+  color: #1d4ed8;
 }
 
 /* Work */
@@ -263,7 +263,7 @@ a:focus {
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #007bff;
+  color: #1d4ed8;
 }
 
 .slick-dots li button:before {
@@ -281,7 +281,7 @@ a:focus {
 	max-width: 480px;
 	max-height: 360px;
 	width: 48%; */
-  background: #0c2734;
+  background: #15215c;
   text-align: center;
   cursor: pointer;
 }
@@ -351,7 +351,7 @@ a:focus {
 /*---------------*/
 
 figure.effect-honey {
-  background: #0c2734;
+  background: #15215c;
   max-width: 220px;
 }
 
@@ -371,7 +371,7 @@ figure.effect-honey figcaption::before {
   left: 0;
   width: 100%;
   height: 10px;
-  background: #007bff;
+  background: #1d4ed8;
   content: "";
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
@@ -416,7 +416,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: #ffffff;
   background-image: none;
-  background-color: #0c2734;
+  background-color: #15215c;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
@@ -426,7 +426,7 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-underline {
-  border-top: 2px solid #007bff;
+  border-top: 2px solid #1d4ed8;
   height: 8px;
   width: 100%;
 }
@@ -434,7 +434,7 @@ figure.effect-honey:hover h2 i {
 .tm-underline-inner {
   width: 25%;
   height: 8px;
-  background: #007bff;
+  background: #1d4ed8;
 }
 
 .tm-contact-item {
@@ -454,7 +454,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-contact-item-link:hover i,
 .tm-contact-item-link:hover span {
-  color: #007bff;
+  color: #1d4ed8;
 }
 
 .tm-input {
@@ -486,7 +486,7 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer {
-  background-color: #0c2734;
+  background-color: #15215c;
   position: absolute;
   bottom: 35px;
   left: 0;
@@ -500,7 +500,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #007bff;
+  color: #1d4ed8;
   text-decoration: none;
 }
 
@@ -566,7 +566,7 @@ p {
   }
 
   .navbar-collapse {
-    background-color: #0c2734;
+    background-color: #15215c;
     padding: 10px;
     border-radius: 3px;
   }
