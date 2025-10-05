@@ -78,67 +78,43 @@
             <div class="col-12">
                 <div class="mx-auto tm-gallery-container">
                     <div class="grid tm-gallery">
-                      <a href="img/gallery-img-01.jpg">
+                      <a href="img/1.jpg">
                         <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-01.jpg" alt="Image" class="img-fluid">
+                          <img src="img/1_tn.jpg" alt="Image" class="img-fluid">
                           <figcaption>
                             <h2><i>Dreamy <span>Sample</span> Now</i></h2>
                           </figcaption>
                         </figure>
                       </a>
-                      <a href="img/gallery-img-02.jpg">
+                      <a href="img/2.jpg">
                         <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-02.jpg" alt="Image" class="img-fluid">
+                          <img src="img/2_tn.jpg" alt="Image" class="img-fluid">
                           <figcaption>
                             <h2><i>Second <span>Sample</span> Now</i></h2>
                           </figcaption>
                         </figure>
                       </a>
-                      <a href="img/gallery-img-03.jpg">
+                      <a href="img/3.jpg">
                         <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-03.jpg" alt="Image" class="img-fluid">
+                          <img src="img/3_tn.jpg" alt="Image" class="img-fluid">
                           <figcaption>
                             <h2><i>Third <span>Sample</span> Now</i></h2>
                           </figcaption>
                         </figure>
                       </a>
-                      <a href="img/gallery-img-04.jpg">
+                      <a href="img/4.jpg">
                         <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-04.jpg" alt="Image" class="img-fluid">
+                          <img src="img/4_tn.jpg" alt="Image" class="img-fluid">
                           <figcaption>
                             <h2><i>Some <span>Sample</span> Now</i></h2>
                           </figcaption>
                         </figure>
                       </a>
-                      <a href="img/gallery-img-05.jpg">
+                      <a href="img/5.jpg">
                         <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-05.jpg" alt="Image" class="img-fluid">
+                          <img src="img/5_tn.jpg" alt="Image" class="img-fluid">
                           <figcaption>
                             <h2><i>Fifth <span>Sample</span> Now</i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-06.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-06.jpg" alt="Image" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Sixth <span>Sample</span> Now</i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-01.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-01.jpg" alt="Image" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Dreamy <span>Sample</span> Now</i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-02.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-02.jpg" alt="Image" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Eighth <span>Sample</span> Now</i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -310,7 +286,7 @@
 
         // Gallery
         $('.tm-gallery').slick({
-          dots: true,
+          dots: false,
           infinite: false,
           slidesToShow: 5,
           slidesToScroll: 2,
@@ -319,28 +295,32 @@
             breakpoint: 1199,
             settings: {
               slidesToShow: 4,
-              slidesToScroll: 2
+              slidesToScroll: 2,
+              dots: true
             }
           },
           {
             breakpoint: 991,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 2
+              slidesToScroll: 2,
+              dots: true
             }
           },
           {
             breakpoint: 767,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              dots: true
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              dots: true
             }
           }
         ]
