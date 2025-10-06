@@ -130,7 +130,7 @@ a:focus {
   min-height: 375px;
   position: relative;
   background-color: #15215c;
-  background-image: url('../img/london2.jpg');
+  background-image: url('../img/ljb-hero.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -610,3 +610,4 @@ p {
 #about .tm-work-description {
   color: #0c2734;
 }
+
